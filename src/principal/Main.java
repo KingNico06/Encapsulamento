@@ -17,7 +17,12 @@ public class Main {
 		System.out.println("Saldo: " + joao.getSaldo());
 		
 		joao.setTitular("João Kleber");
-		joao.setSaldo(5000);
+		joao.depositar(500);
+		joao.depositar(1000);
+		joao.depositar(-50);
+		joao.sacar(3000);
+		joao.sacar(200);
+		joao.sacar(100);
 		
 		System.out.println(joao.toString());
 		
